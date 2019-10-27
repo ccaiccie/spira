@@ -20,7 +20,7 @@ create a dynamic inventory script in AWX:
 9. Click the green button
 10. Assign a name to the dynamic inventory and select "Custom Script" from sources
 11. Ensure your script created in step shows up under Custom Inventory Script field, change if needed
-12. Under the Environmentals section, enter `NETBOX_CONFIG_FILE: /home/awx/netbox_original.yml` underneath the three `---` line
+12. Under the Environmentals section, enter `NETBOX_CONFIG_FILE: /home/awx/netbox.yml` underneath the three `---` line
 13. Select Update Options that align with your needs, I select all three (Update Options, Overwrite Variables, Update on Launch) and save
 14. Click on Inventory from menu again
 15. Select your dynamic inventory
